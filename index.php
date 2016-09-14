@@ -15,8 +15,8 @@
 
 
                 <form>
-                    <div class="row">
-                        <div class="small-2 columns">
+                    <div class="row text-center">
+                        <div class="small-2 small-centered columns">
                             <label>Separator
                                 <select>
                                     <option value="space">Space</option>
@@ -24,52 +24,31 @@
                                     <option value="period">Period</option>
                                     <option value="underscore">Underscore</option>
                                     <option value="comma">Comma</option>
-                                    <option value="camel">None (CamelCase)</option>
+                                    <option value="camel">None (camelCase)</option>
                                 </select>
                             </label>
                         </div>
                     </div>  
-                    <div class="row">
-                        <fieldset class="fieldset">
-                            <legend>Choose number of words</legend>
-                            <div class="small-4 columns">
-                                <div class="slider" data-slider data-initial-start="4" data-start="4" data-end="9">
-                                    <span class="slider-handle"  data-slider-handle role="slider" tabindex="1" aria-controls="words"></span>
-                                    <span class="slider-fill" data-slider-fill></span>
-                                </div>
+                    <div class="row text-center">
+                        <label>Choose number of words
+                            <div class="small-1 small-centered columns">
+                                <input type="number" id="num-words" max="9" min="4">
                             </div>
-                            <div class="small-1 columns end">
-                                <input type="number" id="words">
-                            </div>
-                        </fieldset>
+                        </label>
                     </div>
-                    <div class="row">
-                        <fieldset class="fieldset">
-                            <legend>Choose number of symbols</legend>
-                            <div class="small-4 columns">
-                                <div class="slider" data-slider data-initial-start="1" data-start="1" data-end="9">
-                                    <span class="slider-handle"  data-slider-handle role="slider" tabindex="1" aria-controls="symbols"></span>
-                                    <span class="slider-fill" data-slider-fill></span>
-                                </div>
+                    <div class="row text-center">
+                        <label>Choose number of symbols
+                            <div class="small-1 small-centered columns">
+                                <input type="number" id="num-symbols" max="9" min="1">
                             </div>
-                            <div class="small-1 columns end">
-                                <input type="number" id="symbols">
-                            </div>
-                        </fieldset>
+                        </label>
                     </div>
-                    <div class="row">
-                        <fieldset class="fieldset">
-                            <legend>Choose number of numbers</legend>
-                            <div class="small-4 columns">
-                                <div class="slider" data-slider data-initial-start="1" data-start="1" data-end="9">
-                                    <span class="slider-handle"  data-slider-handle role="slider" tabindex="1" aria-controls="numbers"></span>
-                                    <span class="slider-fill" data-slider-fill></span>
-                                </div>
+                    <div class="row text-center">
+                        <label>Choose number of numbers
+                            <div class="small-1 small-centered columns">
+                                <input type="number" id="num-numbers" max="9" min="1">
                             </div>
-                            <div class="small-1 columns end">
-                                <input type="number" id="numbers">
-                            </div>
-                        </fieldset>
+                        </label>
                     </div>
                 </form>
             

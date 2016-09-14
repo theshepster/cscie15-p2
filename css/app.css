@@ -42,28 +42,3 @@
 .js-drilldown-back::before {
   border-color: transparent #fff transparent transparent; }
 
-.output {
-    text-align: center;
-    font-size: 3rem;
-    margin-bottom: 25px;
-    color: #0b0b61;
-    font-family: courier;
-    background-color: #ccc;
-    display: inline-block;
-    padding: 15px;
-    font-weight: 400;
-}
-
-#words {
-  width: 45px;
-}
-
-.error {
-    height: 20px;
-    color: red;
-    padding: 5px;
-}
-
-.main {
-  text-align: center;
-}
