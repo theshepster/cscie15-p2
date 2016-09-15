@@ -67,7 +67,7 @@
                         </div>
                         
                         <p><button type="submit" class="button expanded" value="Generate Password">Generate Passwords</button></p>
-                        <p class="text-center"><a href="#">Inspiration?</a></p>   
+                        <p class="text-center"><a href="http://xkcd.com/936/">Inspiration?</a></p>   
                     </div>
                 </form>
             </div>
