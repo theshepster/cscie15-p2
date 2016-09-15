@@ -41,4 +41,8 @@
 
 .js-drilldown-back::before {
   border-color: transparent #fff transparent transparent; }
-
+  
+ h4 {
+   height: 2em;
+   margin: 2em;
+ }
