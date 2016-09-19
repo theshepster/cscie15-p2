@@ -10,7 +10,7 @@ while(($data = fgetcsv($handle)) !== FALSE)
 }
 fclose($handle);
 
-/*
+
 // choose random words
 // uses array_flip to get values instead of keys
 $words = array_rand(array_flip($wordlist), $num_words);
@@ -27,7 +27,7 @@ for ($i = 0; $i < $num_numbers; $i++)
 // get separator
 $separators = ["space" => " ", "comma" => ",", "underscore" => "_", "period" => ".", "hyphen" => "-"];
 $separator = $separators[$separator];
-
+/*
 // concatenate words, separated by separator
 if (count($words) > 1)
     $pwd = implode($separator, $words);
