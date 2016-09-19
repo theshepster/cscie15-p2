@@ -20,10 +20,10 @@
         <?php
         include_once("form.php");    
         include_once("validate_form.php");
-        ?>
-        
-        <!--
         include_once("generate_password.php");
+        ?>
+
+        <!--
         include_once("display_password.php")
         -->
 

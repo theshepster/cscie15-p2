@@ -3,10 +3,13 @@
 // get wordlist from csv
 $handle = fopen('wordlist.csv', 'r');
 $wordlist = array("hi", "this", "is", "your", "mom", "speaking", "are", "you", "listening", "to", "me");
-while(($data = fgetcsv($handle)) !== FALSE)
+if ($handle = fopen('wordlist.csv', 'r') !== FALSE)
 {
-    for ($i=0; $i < count($data); $i++)
-            $wordlist[] = $data[$i];
+    while(($data = fgetcsv($handle)) !== FALSE)
+    {
+        for ($i=0; $i < count($data); $i++)
+                $wordlist[] = $data[$i];
+    }
 }
 fclose($handle);
 
