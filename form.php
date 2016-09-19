@@ -5,7 +5,7 @@
 
                 <div class="row">
                     <label>Number of words</label>
-                    <div class="slider small-8 columns" data-slider data-initial-start="9" data-start="1" data-end="9">
+                    <div class="slider small-8 columns" data-slider data-initial-start="5" data-start="1" data-end="9">
                             <span class="slider-handle"  data-slider-handle role="slider" tabindex="1" aria-controls="num-words" aria-valuenow="5" aria-valuemin="1" aria-valuemax="9"></span>
                             <span class="slider-fill" data-slider-fill></span>
                     </div>
@@ -16,7 +16,7 @@
 
                 <div class="row">
                     <label>Number of symbols at end</label>
-                    <div class="slider small-8 columns" data-slider data-initial-start="9" data-start="1" data-end="9">
+                    <div class="slider small-8 columns" data-slider data-initial-start="5" data-start="1" data-end="9">
                             <span class="slider-handle"  data-slider-handle role="slider" tabindex="1" aria-controls="num-symbols" aria-valuenow="5" aria-valuemin="1" aria-valuemax="9"></span>
                             <span class="slider-fill" data-slider-fill></span>
                     </div>
@@ -27,7 +27,7 @@
 
                 <div class="row">
                     <label>Number of numbers at end</label>
-                    <div class="slider small-8 columns" data-slider data-initial-start="9" data-start="1" data-end="9">
+                    <div class="slider small-8 columns" data-slider data-initial-start="5" data-start="1" data-end="9">
                             <span class="slider-handle"  data-slider-handle role="slider" tabindex="1" aria-controls="num-numbers" aria-valuenow="5" aria-valuemin="1" aria-valuemax="9"></span>
                             <span class="slider-fill" data-slider-fill></span>
                     </div>
