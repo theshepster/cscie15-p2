@@ -24,7 +24,7 @@
         ?>
 
         <!--
-        include_once("display_password.php")
+        include_once("display_password.php");
         -->
 
         <script src="js/vendor/jquery.js"></script>

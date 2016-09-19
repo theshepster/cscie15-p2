@@ -1,7 +1,6 @@
 <?php
 
 // get wordlist from csv
-$handle = fopen('wordlist.csv', 'r');
 $wordlist = array("hi", "this", "is", "your", "mom", "speaking", "are", "you", "listening", "to", "me");
 if ($handle = fopen('wordlist.csv', 'r') !== FALSE)
 {
