@@ -18,12 +18,12 @@ $words = array_rand(array_flip($wordlist), $num_words);
 // choose random symbols
 $symbollist = ["!", "@", "#", "$", "%", "^", "&", "*", "(", ")", "-", "=", "_", "+", "<", ">", ",", ".", "?", "/", "\\", "|"];
 $symbols = array_rand(array_flip($symbollist), $num_symbols);
-/*
+
 // choose random numbers
 $numbers = array();
 for ($i = 0; $i < $num_numbers; $i++)
    $numbers[] = random_int(1, 9);
-
+/*
 // get separator
 $separators = ["space" => " ", "comma" => ",", "underscore" => "_", "period" => ".", "hyphen" => "-"];
 $separator = $separators[$separator];
