@@ -28,10 +28,17 @@ $separators = ["space" => " ", "comma" => ",", "underscore" => "_", "period" => 
 $separator = $separators[$separator];
 
 // concatenate words, separated by separator
-$pwd = implode($separator, $words);
+if (count($words) > 1)
+    $pwd = implode($separator, $words);
+else
+    $pwd = $words;
 
 // add symbols and numbers to end
-$pwd .= implode($symbols);
+if (count($symbols) > 1)
+    $pwd .= implode($symbols);
+else
+    $pwd .= $symbols;
+    
 $pwd .= implode($numbers);
 
 ?>
