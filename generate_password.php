@@ -18,7 +18,7 @@ $words = array_rand(array_flip($wordlist), $num_words);
 // choose random symbols
 $symbollist = ["!", "@", "#", "$", "%", "^", "&", "*", "(", ")", "-", "=", "_", "+", "<", ">", ",", ".", "?", "/", "\\", "|"];
 $symbols = array_rand(array_flip($symbollist), $num_symbols);
-
+/*
 // choose random numbers
 $numbers = array();
 for ($i = 0; $i < $num_numbers; $i++)
@@ -27,7 +27,7 @@ for ($i = 0; $i < $num_numbers; $i++)
 // get separator
 $separators = ["space" => " ", "comma" => ",", "underscore" => "_", "period" => ".", "hyphen" => "-"];
 $separator = $separators[$separator];
-/*
+
 // concatenate words, separated by separator
 if (count($words) > 1)
     $pwd = implode($separator, $words);
