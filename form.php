@@ -1,5 +1,5 @@
 <div class="row">
-    <div class="small-6 small-centered medium-6 large-4 large-centered columns">
+    <div class="small-8 small-centered medium-6 large-4 large-centered columns">
         <form method='POST' action='/'>
             <div class="row column">
 
@@ -39,6 +39,7 @@
                 <div class="row">
                     <label>Separator</label>
                     <select name="separator">
+                        <option value="hyphen">Hyphen</option>
                         <option value="comma">Comma</option>
                         <option value="space">Space</option>
                         <option value="underscore">Underscore</option>

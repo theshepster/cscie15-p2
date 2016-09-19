@@ -24,7 +24,7 @@ for ($i = 0; $i < $num_numbers; $i++)
    $numbers[] = random_int(1, 9);
 
 // get separator
-$separators = ["space" => " ", "comma" => ",", "underscore" => "_", "period" => "."];
+$separators = ["space" => " ", "comma" => ",", "underscore" => "_", "period" => ".", "hyphen" => "-"];
 $separator = $separators[$separator];
 
 // concatenate words, separated by separator

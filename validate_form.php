@@ -1,7 +1,7 @@
 <?php 
 
 $default = 5;
-$separator = "comma";
+$separator = "hyphen";
 
 if ($_POST["num-words"] !== NULL)
 {

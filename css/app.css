@@ -49,4 +49,7 @@
     font-family: courier;
     background-color: #eee;
     font-weight: 500;
+    word-break: break-all;
+    padding-left: 15px;
+    padding-right: 15px;
 }
