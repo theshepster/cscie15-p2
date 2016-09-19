@@ -10,6 +10,7 @@ while(($data = fgetcsv($handle)) !== FALSE)
 }
 fclose($handle);
 
+/*
 // choose random words
 // uses array_flip to get values instead of keys
 $words = array_rand(array_flip($wordlist), $num_words);
@@ -40,5 +41,5 @@ else
     $pwd .= $symbols;
     
 $pwd .= implode($numbers);
-
+*/
 ?>
