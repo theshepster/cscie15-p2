@@ -1,3 +1,8 @@
+<?php
+error_reporting(E_ALL);
+ini_set('display_errors', 1);
+?>
+
 <!doctype html>
 <html class="no-js" lang="en" dir="ltr">
     <head>
@@ -12,16 +17,17 @@
     <body>
 
         <?php
-        include_once("header.html");
+        require_once("header.html");
         ?>
 
         <div class="row"><br></div>
 
         <?php
-        include_once("form.php");    
-        include_once("validate_form.php");
-        include_once("generate_password.php");
-        include_once("display_password.php");
+        require_once("defaults.php");
+        require_once("form.php");    
+        require_once("validate_form.php");
+        require_once("generate_password.php");
+        require_once("display_password.php");
         ?>
 
         <script src="js/vendor/jquery.js"></script>
