@@ -1,14 +1,15 @@
 <?php
 
 // get wordlist from csv
-$handle = fopen('wordlist.csv', 'r');
-$wordlist = [];
-while(($data = fgetcsv($handle)) !== FALSE)
-{
-    for ($i=0; $i < count($data); $i++)
-            $wordlist[] = $data[$i];
-}
-fclose($handle);
+// $handle = fopen('wordlist.csv', 'r');
+// $wordlist = [];
+// while(($data = fgetcsv($handle)) !== FALSE)
+// {
+//     for ($i=0; $i < count($data); $i++)
+//             $wordlist[] = $data[$i];
+// }
+// fclose($handle);
+require_once('wordlist.php');
 
 // choose random words
 // uses array_flip to get values instead of keys
