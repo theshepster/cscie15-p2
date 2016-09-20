@@ -12,34 +12,34 @@
 
                 <div class="row">
                     <label>Number of words</label>
-                    <div class="slider small-8 columns" data-slider data-initial-start="<?php echo isset($_POST['num-words']) ? $_POST['num-words'] : 5; ?>" data-start="1" data-end="9">
-                            <span class="slider-handle"  data-slider-handle role="slider" tabindex="1" aria-controls="num-words" aria-valuenow="<?php echo isset($_POST['num-words']) ? $_POST['num-words'] : 5; ?>" aria-valuemin="1" aria-valuemax="9"></span>
+                    <div class="slider small-8 columns" data-slider data-initial-start="<?php echo (isset($_POST['num-words']) && $_POST['num-words'] >= 1 && $_POST['num-words'] <= 9) ? $_POST['num-words'] : 5; ?>" data-start="1" data-end="9">
+                            <span class="slider-handle"  data-slider-handle role="slider" tabindex="1" aria-controls="num-words" aria-valuenow="<?php echo (isset($_POST['num-words']) && $_POST['num-words'] >= 1 && $_POST['num-words'] <= 9) ? $_POST['num-words'] : 5; ?>" aria-valuemin="1" aria-valuemax="9"></span>
                             <span class="slider-fill" data-slider-fill></span>
                     </div>
                     <div class="small-4 columns">
-                        <input type="number" id="num-words" name="num-words" placeholder="Number of words">
+                        <input type="number" id="num-words" name="num-words" placeholder="#">
                     </div>
                 </div>
 
                 <div class="row">
                     <label>Number of symbols at end</label>
-                    <div class="slider small-8 columns" data-slider data-initial-start="<?php echo isset($_POST['num-symbols']) ? $_POST['num-symbols'] : 5; ?>" data-start="1" data-end="9">
-                            <span class="slider-handle"  data-slider-handle role="slider" tabindex="1" aria-controls="num-symbols" aria-valuenow="<?php echo isset($_POST['num-symbols']) ? $_POST['num-symbols'] : 5; ?>" aria-valuemin="0" aria-valuemax="9"></span>
+                    <div class="slider small-8 columns" data-slider data-initial-start="<?php echo (isset($_POST['num-symbols']) && $_POST['num-symbols'] >= 1 && $_POST['num-symbols'] <= 9) ? $_POST['num-symbols'] : 5; ?>" data-start="1" data-end="9">
+                            <span class="slider-handle"  data-slider-handle role="slider" tabindex="1" aria-controls="num-symbols" aria-valuenow="<?php echo (isset($_POST['num-symbols']) && $_POST['num-symbols'] >= 1 && $_POST['num-symbols'] <= 9) ? $_POST['num-symbols'] : 5; ?>" aria-valuemin="0" aria-valuemax="9"></span>
                             <span class="slider-fill" data-slider-fill></span>
                     </div>
                     <div class="small-4 columns">
-                        <input type="number" id="num-symbols" name="num-symbols" placeholder="Number of words">
+                        <input type="number" id="num-symbols" name="num-symbols" placeholder="#">
                     </div>
                 </div>
 
                 <div class="row">
                     <label>Number of numbers at end</label>
-                    <div class="slider small-8 columns" data-slider data-initial-start="<?php echo isset($_POST['num-numbers']) ? $_POST['num-numbers'] : 5; ?>" data-start="1" data-end="9">
-                            <span class="slider-handle"  data-slider-handle role="slider" tabindex="1" aria-controls="num-numbers" aria-valuenow="<?php echo isset($_POST['num-numbers']) ? $_POST['num-numbers'] : 5; ?>" aria-valuemin="0" aria-valuemax="9"></span>
+                    <div class="slider small-8 columns" data-slider data-initial-start="<?php echo (isset($_POST['num-numbers']) && $_POST['num-numbers'] >= 1 && $_POST['num-numbers'] <= 9) ? $_POST['num-numbers'] : 5; ?>" data-start="1" data-end="9">
+                            <span class="slider-handle"  data-slider-handle role="slider" tabindex="1" aria-controls="num-numbers" aria-valuenow="<?php echo (isset($_POST['num-numbers']) && $_POST['num-numbers'] >= 1 && $_POST['num-numbers'] <= 9) ? $_POST['num-numbers'] : 5; ?>" aria-valuemin="0" aria-valuemax="9"></span>
                             <span class="slider-fill" data-slider-fill></span>
                     </div>
                     <div class="small-4 columns">
-                        <input type="number" id="num-numbers" name="num-numbers" placeholder="Number of words">
+                        <input type="number" id="num-numbers" name="num-numbers" placeholder="#">
                     </div>
                 </div>
 
