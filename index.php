@@ -25,6 +25,7 @@
         require_once("display_password.php");
         ?>
 
+        <!-- These scripts are included with Foundation 6. -->
         <script src="js/vendor/jquery.js"></script>
         <script src="js/vendor/what-input.js"></script>
         <script src="js/vendor/foundation.js"></script>

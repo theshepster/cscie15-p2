@@ -1,3 +1,10 @@
+<?php
+/*
+ * This form is based on the Log In Form building block
+ * from Zurb, available at http://zurb.com/building-blocks/log-in-form
+*/
+?>
+
 <div class="row">
     <div class="small-8 small-centered medium-6 large-4 large-centered columns">
         <form method='POST' action='/'>
