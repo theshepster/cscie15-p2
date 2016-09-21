@@ -9,7 +9,7 @@ September 22, 2016
 ## Project Website
 <a href="http://p2.mooreberg.me">p2.mooreberg.me</a>
 
-## Screencast Dome
+## Screencast Demo
 <a href="https://youtu.be/gqVg7CLNKJs">https://youtu.be/gqVg7CLNKJs</a>
 
 ## Libraries Used
